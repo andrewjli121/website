@@ -1,0 +1,57 @@
+header {
+    color: blue;
+
+}
+
+body {
+    background-color: #f9f2ed;
+}
+
+h4 {
+    color: #ad6037;
+
+}
+
+
+.orange {
+    color: #a86042;
+    font-weight: bold;
+}
+
+.row {
+    width:500px;
+    height:auto;
+    padding-left: 20%;
+}
+
+.column {
+
+
+}
+
+
+#about-me {
+    font-size: x-large;
+    font-weight: bold;
+    width: 500px;
+    padding: 10% 20%;
+}
+
+#topbar {
+    float: left;
+    color: #a86042;
+    display: block;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    float: right;
+}
+
+#aimeeli {
+    float: left;
+    color: #a86042;
+    display: block;
+    text-align: center;
+    padding: 50px;
+
+}
