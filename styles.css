@@ -1,17 +1,6 @@
-header {
-    color: blue;
-
-}
-
 body {
     background-color: #f9f2ed;
 }
-
-h4 {
-    color: #ad6037;
-
-}
-
 
 .orange {
     color: #a86042;
@@ -19,39 +8,59 @@ h4 {
 }
 
 .row {
-    width:500px;
-    height:auto;
-    padding-left: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .column {
-
-
+    float: left;
+    width: 48%;
+    padding: 1%;
 }
 
+.pic {
+    object-fit: cover;
+}
+
+.nav a{
+    z-index: 100;
+    position: relative;
+    color: #a86042;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.nav:hover a{
+    color: #3c3b3a;
+    font-family: Arial;
+}
 
 #about-me {
     font-size: x-large;
     font-weight: bold;
     width: 500px;
-    padding: 10% 20%;
+    padding: 10% 20% 1% 20%;
+    position: relative;
 }
 
-#topbar {
-    float: left;
-    color: #a86042;
+#topbar a{
     display: block;
     text-align: center;
-    padding: 50px;
-    text-decoration: none;
+    margin: 50px 10px;
     float: right;
 }
 
-#aimeeli {
+#aimeeli a{
     float: left;
-    color: #a86042;
     display: block;
     text-align: center;
-    padding: 50px;
-
+    margin: 50px;
 }
